@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+.all{
+    display: flex;
+    font-size:1.5rem;
+  border-radius: 10%;
+margin-left: 35rem;
+margin-right: 20rem;
+margin-top: 10rem;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-right: 5rem;
+}
+.icon{
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+h2{
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+.sedan{
+  background-color: hsl(31, 77%, 52%);
+  width: 27rem;
+ color: hsla(0, 0%, 100%, 0.75);
+}
+.suv{
+  background-color:hsl(184, 100%, 22%);
+  width: 27rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.lux{
+  background-color:hsl(179, 100%, 13%);
+  width: 27rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+button{
+  background-color: white;
+  border-radius: 25rem;
+  padding: 1rem 2rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  border: none;
+}
+.btn-sedan{
+  color:hsl(31, 77%, 52%) ;
+}
+.btn-suv{
+  color:hsl(184, 100%, 22%) ;
+}
+.btn-lux{
+  color: hsl(179, 100%, 13%);
+}
