@@ -7,14 +7,16 @@ html {
   font-size: 62.5%;
 }
 
-.all{
-    display: flex;
-    font-size:1.5rem;
+.main_container{
+  display: flex;
+  font-size:1.5rem;
   border-radius: 10%;
-margin-left: 35rem;
-margin-right: 20rem;
-margin-top: 10rem;
+  margin-left: 35rem;
+  margin-right: 20rem;
+  margin-top: 10rem;
+  border-radius: 1rem;
 }
+
 p{
   color: hsla(0, 0%, 100%, 0.75);
   margin-left: 5rem;
@@ -32,21 +34,26 @@ h2{
   margin-bottom: 5rem;
   margin-top: 5rem;
 }
-.sedan{
+.sedan_car-container{
   background-color: hsl(31, 77%, 52%);
   width: 27rem;
- color: hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }
-.suv{
+.suv_car-container{
   background-color:hsl(184, 100%, 22%);
   width: 27rem;
   color: hsla(0, 0%, 100%, 0.75);
 }
-.lux{
+.lux_car-container{
   background-color:hsl(179, 100%, 13%);
   width: 27rem;
   color: hsla(0, 0%, 100%, 0.75);
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
+
 button{
   background-color: white;
   border-radius: 25rem;
@@ -55,7 +62,10 @@ button{
   margin-bottom: 5rem;
   margin-top: 5rem;
   border: none;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
 }
+
 .btn-sedan{
   color:hsl(31, 77%, 52%) ;
 }
@@ -65,3 +75,22 @@ button{
 .btn-lux{
   color: hsl(179, 100%, 13%);
 }
+
+.btn-sedan:hover {
+  border: 2px solid #ffff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.btn-suv:hover {
+  border: 2px solid #ffff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.btn-lux:hover {
+  border: 2px solid #ffff;
+  background-color: transparent;
+  color: #fff;
+}
+
